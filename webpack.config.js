@@ -16,7 +16,7 @@ module.exports = {
         test: /\.jsx?$/,
         // only process files in our app folder
         include: /app/,
-        loader: "babel",
+        loader: "babel-loader",
         query: {
           // specific transformations 
           presets: ["react", "es2015"]
