@@ -2,7 +2,10 @@
 var React = require("react");
 
 //for making API calls, even though we have no APIs....
-var helpers = require("../../utils/helpers");
+//var helpers = require("../../utils/helpers");
+
+//include button component
+var Buttons = require("./Buttons");
 
 // Creating the Profile component
 var Profile = React.createClass({
@@ -20,7 +23,7 @@ var Profile = React.createClass({
         
         <div className="row">
           <div className="col-sm-12">
-            profile info here, with update button
+            <p>profile info here, with update button</p>
           </div>
         </div>
 

@@ -1,5 +1,11 @@
+// Include React
+var React = require("react");
+
 //for making API calls, even though we have no APIs....
-var helpers = require("../../utils/helpers");
+//var helpers = require("../../utils/helpers");
+
+//include button component
+var Buttons = require("./Buttons");
 
 // Creating the Home component
 var Home = React.createClass({
@@ -14,12 +20,10 @@ var Home = React.createClass({
             <Buttons />
           </div>
         </div>
-
-        
         
         <div className="row">
           <div className="col-sm-12">
-            cool navy picture here
+            <p>cool navy picture here</p>
           </div>
         </div>
 

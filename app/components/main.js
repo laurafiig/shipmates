@@ -9,24 +9,28 @@ var Main = React.createClass({
   render: function() {
     return (
       <div className="container bg-pattern">
+
         <div className="jumbotron bg-photo">
-          <h1 className="text-center"><strong>ShipMates!</strong></h1>
-          <p className="text-center">
-            <strong>Find your fellow sailors.</strong>
-          </p>
-          <p className="text-center">
-            (design header here)
-          </p>
+        <h1 className="text-center"><strong>ShipMates!</strong></h1>
+        <p className="text-center">
+        <strong>Find your fellow sailors.</strong>
+        </p>
+        <p className="text-center">
+        (design header here)
+        </p>
         </div>
+
         <div className="row">
-          {/* This code will dump the correct Child Component */}
-          {this.props.children}
+        {/* This code will dump the correct Child Component */}
+        {this.props.children}
         </div>
+
         <div className="row">
           <div className="col-sm-12">
-            (design footer here)
+          <h4>(design footer here)</h4>
           </div>
         </div>
+
       </div>
     );
   }

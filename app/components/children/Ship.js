@@ -2,7 +2,10 @@
 var React = require("react");
 
 //for making API calls, even though we have no APIs....
-var helpers = require("../../utils/helpers");
+//var helpers = require("../../utils/helpers");
+
+//include button component
+var Buttons = require("./Buttons");
 
 // Creating the Ship component
 var Ship = React.createClass({
@@ -20,13 +23,13 @@ var Ship = React.createClass({
 
         <div className="row">
           <div className="col-sm-12">
-            ship search here
+            <p>ship search here</p>
           </div>
         </div>
         
         <div className="row">
           <div className="col-sm-12">
-            ship public info here
+            <p>ship public info here</p>
           </div>
         </div>
 

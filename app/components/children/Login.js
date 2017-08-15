@@ -2,7 +2,7 @@
 var React = require("react");
 
 //for making API calls, even though we have no APIs....
-var helpers = require("../../utils/helpers");
+//var helpers = require("../../utils/helpers");
 
 // Creating the Login component
 var Login = React.createClass({
@@ -11,20 +11,19 @@ var Login = React.createClass({
   render: function() {
     return (
       <div>
-        <div className="row">
-          <div className="col-sm-12">
-            
-              <a href="#/Home" className="btn btn-primary btn-lg">Login</a>
-              
-                            
         
-          </div>
-        </div>
         <div className="row">
           <div className="col-sm-12">
-            cool world map
+            <a href="#/Home" className="btn btn-primary btn-lg">Login</a>
           </div>
         </div>
+
+        <div className="row">
+          <div className="col-sm-12">
+            <p>cool world map</p>
+          </div>
+        </div>
+        
       </div>
     );
   }

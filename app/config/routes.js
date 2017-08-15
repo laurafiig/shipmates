@@ -38,6 +38,10 @@ module.exports = (
 
       {/*  xxxxx this one (Login) may go away xxxxx */}
       {/* If user selects then show the appropriate component*/}
+      <Route path="Login" component={Login} />
+
+      {/*  xxxxx this one (Login) may go away xxxxx */}
+      {/* If user selects then show the appropriate component*/}
       <Route path="Home" component={Home} />
 
 
@@ -50,8 +54,9 @@ module.exports = (
       {/* If user selects then show the appropriate component*/}
       <Route path="Profile" component={Profile} />
 
-      {/*  xxxxx this may change to search xxxxx */}
-      {/*  <IndexRoute component={Choice} /> */}
+      {/* If user selects then show the appropriate component*/}
+      <Route path="Buttons" component={Buttons} />
+      
       {/* If user selects any other path... we get the Home Route */}
       <IndexRoute component={Login} />
 
